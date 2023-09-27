@@ -81,15 +81,34 @@
 }
 #content-container {
   display: grid;
-  grid-template-rows: 1fr repeat(2, 3fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 .header-elements-container {
   display: grid;
-  grid-template-columns: 7fr repeat(4, 1fr);
-  justify-content: center;
-  margin: 40px 0px 30px 20px;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 40px 0px 0px 20px;
 }
-.header-elements-container .overview {
+.header-elements-container .header-elements-overview-container {
   color: #363740;
   font-size: 24px;
+}
+.header-elements-icons-container {
+  height: 25px;
+  width: 300px;
+  justify-self: right;
+  display: flex;
+  justify-content: space-around;
+}
+.user img {
+  margin: -10px 20px 0px 30px;
+  height: 45px;
+  border: 2px solid #9bb4b799;
+  border-radius: 50%;
+}
+.notifications {
+  padding: 0px 20px 0px 20px;
+  border-right: 2px solid #9bb4b799;
+}
+.header-elements-icons-container .username {
+  padding-left: 85px;
 }
