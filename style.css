@@ -12,6 +12,15 @@
 .header {
   margin-left: 275px;
 }
+.header-elements-icons-container .search-bar,
+.notifications :hover {
+  cursor: pointer;
+}
+.header-elements-icons-container #user-image :hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 255, 0.8);
+}
+
 .sidebar {
   height: 100%;
   width: 250px;
@@ -77,26 +86,34 @@
 .main1 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  margin: 35px 15px 0px 0px;
+  margin: 0px 15px 0px 0px;
   height: 130px;
 }
 .main1-elements {
   border: 3px solid #d0d5f47b;
   text-align: center;
   padding-top: 35px;
-  margin: 0px 10px 0px 0px;
+  margin: -10px 10px 0px 0px;
   height: 100%;
   border-radius: 8px;
 }
-.main1-element:hover {
+
+.main2-elements2 p,
+.main1-elements p {
+  color: #9fa2b4;
+}
+.main1-elements:hover {
   border: 3px solid blue;
+  color: blue;
+}
+.main1-elements:hover p {
   color: blue;
 }
 
 .main2 {
   display: grid;
   grid-template-columns: 2fr 1.3fr;
-  margin: -125px 15px 0px 0px;
+  margin: -150px 15px 0px 0px;
   border-radius: 10px;
   border: 3px solid #d0d5f47b;
 }
@@ -117,7 +134,7 @@
 .main3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-left: 250px;
+  border: 3px solid red;
 }
 #content-container {
   display: grid;
@@ -127,7 +144,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin: 40px 15px 0px 0px;
-  /* border: 3px solid brown; */
 }
 .header-elements-container .header-elements-overview-container {
   color: #363740;
