@@ -69,12 +69,15 @@
 .content-container {
   margin-left: 275px;
 }
+.main1,
+.main2 {
+  align-self: start;
+}
 
 .main1 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin: 35px 15px 0px 0px;
-  /* border: 1px solid green; */
   height: 130px;
 }
 .main1-elements {
@@ -93,18 +96,13 @@
 .main2 {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  margin: -70px 15px 0px 0px;
-  height: 400px;
+  margin: 15px 15px 0px 0px;
   border-radius: 10px;
-  border: 3px solid gray;
+  border: 3px solid #d0d5f47b;
   /* border: 5px solid red; */
 }
-.main2-elements {
-  height: 100%;
-}
-
 #main2-elements1 {
-  border-right: 3px solid gray;
+  border-right: 3px solid #d0d5f47b;
 }
 .main3 {
   display: grid;
