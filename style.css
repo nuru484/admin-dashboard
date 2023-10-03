@@ -88,21 +88,31 @@
   height: 100%;
   border-radius: 8px;
 }
-.main1-elements:hover {
+.main1-element:hover {
   border: 3px solid blue;
   color: blue;
 }
 
 .main2 {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  margin: 15px 15px 0px 0px;
+  grid-template-columns: 2fr 1.3fr;
+  margin: -125px 15px 0px 0px;
   border-radius: 10px;
   border: 3px solid #d0d5f47b;
-  /* border: 5px solid red; */
 }
 #main2-elements1 {
   border-right: 3px solid #d0d5f47b;
+}
+.main2-elements1 .todays-trend {
+  margin: 20px;
+  font-size: 24px;
+}
+#main2-elements2 {
+  text-align: center;
+}
+.main2-elements2 div {
+  border-top: 2px solid #bec2df7b;
+  padding: 25px;
 }
 .main3 {
   display: grid;
