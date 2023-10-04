@@ -183,8 +183,26 @@
   font-size: 14px;
 }
 .part1 .group-support {
-  margin: 5px 0px 30px 0px;
+  margin: 10px 0px 30px 0px;
   font-size: 11px;
+}
+.finish-ticket-update,
+.part2,
+.part3,
+.part4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0px 5px 0px;
+}
+.side2-container .part1,
+.part2,
+.part3,
+.part4 {
+  padding: 25px;
+}
+.side2-container .part4 {
+  padding: 25px;
 }
 #content-container {
   display: grid;
@@ -201,6 +219,27 @@
   justify-content: space-between;
   align-items: center;
   margin: 5px 0px 5px 0px;
+}
+
+.part1 .tasks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px 5px 0px;
+}
+.tasks p {
+  color: blue;
+  font-size: 13px;
+  transition: font-size 0.4s;
+}
+.tasks p:hover {
+  cursor: pointer;
+  font-size: 14px;
+}
+.part1 .today {
+  margin: 10px 0px 30px 0px;
+  font-size: 11px;
+  color: gray;
 }
 .header-elements-container {
   display: grid;
