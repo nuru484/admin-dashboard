@@ -86,7 +86,7 @@
 .main1 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  margin: 0px 15px 0px 0px;
+  margin: -70px 15px 0px 0px;
   height: 130px;
 }
 .main1-elements {
@@ -113,7 +113,7 @@
 .main2 {
   display: grid;
   grid-template-columns: 2fr 1.3fr;
-  margin: -150px 15px 0px 0px;
+  margin: -185px 15px 0px 0px;
   border-radius: 10px;
   border: 3px solid #d0d5f47b;
 }
@@ -156,7 +156,7 @@
 .side2-container {
   border: 2px solid #bec2df7b;
   border-radius: 15px;
-  margin-left: 10px;
+  margin: 0px 15px 0px 10px;
 }
 .side2-container .part1,
 .part2,
@@ -225,7 +225,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px 0px 5px 0px;
+  margin: 5px 0px 5px 0px;
 }
 .tasks p {
   color: blue;
@@ -269,4 +269,8 @@
 }
 .header-elements-icons-container .username {
   padding-left: 85px;
+}
+input {
+  margin-right: 10px;
+  border-radius: 50px;
 }
